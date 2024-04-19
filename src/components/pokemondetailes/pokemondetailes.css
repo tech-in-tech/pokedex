@@ -1,0 +1,16 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+.det{
+  font-size: xx-large;
+  color: black;
+  letter-spacing: .2rem;
+  font-weight: 800;
+  padding-top: 20px;
+  text-transform: capitalize;
+  text-align: center;
+}

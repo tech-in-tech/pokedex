@@ -1,0 +1,19 @@
+.outer-pokedex{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center; */
+   
+}
+
+#pokedex-heading{
+  margin: 10px auto 30px auto;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:visited{
+  color: black;
+}
+

@@ -1,0 +1,53 @@
+.pokemon-list-wrapper{
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.pokemon-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.list{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+
+.controls{
+  margin: 30px 0px;
+}
+
+.controls button{
+  padding: 10px 40px;
+  margin: 0px 20px;
+  font-size: 20px;
+  font-weight: 800;
+  /* background-color: rgb(130, 198, 162); */
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.b1{
+  background-color: rgb(20, 163, 188);
+}
+.b2{
+  background-color: rgb(9, 172, 82);
+}
+.b1:hover{
+  background-color: rgb(106, 197, 147);
+  transition: background-color 0.3s ease;
+}
+.b2:hover{
+  background-color: rgb(132, 198, 209);
+  transition: background-color 0.3s ease;
+}
